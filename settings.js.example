@@ -1,0 +1,5 @@
+var settings = {};
+
+settings['token'] = "xoxb-TOKEN-HERE";
+
+module.exports = settings;
