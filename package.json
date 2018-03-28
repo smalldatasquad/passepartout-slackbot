@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/stoloniferous/passepartout-slackbot#readme",
   "dependencies": {
+    "botkit": "^0.6.12",
     "chromix-too": "0.0.9",
+    "node-cmd": "^3.0.0",
     "slackbotapi": "^1.3.9"
   }
 }
