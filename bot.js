@@ -19,7 +19,11 @@ function start_rtm() {
   });
 }
 
-controller.on('rtm_close', function(bot, err) {
+Controller.on('rtm_close', function(bot, err) {
+    if (err) {
+      console.log('Connection error with RTM');
+      return setTimeout(start_rtm, 60000);
+    }
   start_rtm();
 });
 
